@@ -143,17 +143,26 @@ used for developing new features and then merge back this new branch with the ma
 
 ### some useful commands
 ```bash
+# show which branch you are currently in
+$ git branch
+
 # creating a new branch and switch to this branch
 $ git checkout -b new-branch-name
+
+# switching to an existing branch-name
+$ git branch branch-name
 
 # mergin branch-name into the current branch
 $ git merge branch-name
 
-# show which branch you are currently in
-$ git branch
+# deleting a branch
+$ git branch -d branch-name
 
 # see the differences between the 2 branches
 $ git diff branch-name1 branch-name2
+
+# pushing a specific branch
+$ git push -u origin branch-name
 ```
 
 <span style="font-size: x-large"> You must resolve the conflicts happened when merging branches before merging them .</span>
