@@ -131,12 +131,7 @@ $ git push -u origin main
 <hr>
 If we create anther folder besides `non-bare-proj` and `bare-proj` then we can **pull** the changes from the 'bare-proj' repo to this new folder and start working on the files and push them back and so on.
 
-<figure class="video_container">
-  <video controls autoplay preload="metadat" loop allowfullscreen>
-    <source src="https://drive.google.com/file/d/19wHncnLR1QLOVaD3jHU6hLSEES6DfKfy/view?usp=sharing" type="video/mp4">
-    A video diplaying the process of pulling and pushing changes locally on a bare repository
-  </video>
-</figure>
+![pushing and pulling data](Media/pull%20and%20push%20locally.mp4)
 
 ## Branching
 used for developing new features and then merge back this new branch with the main branch. you must take care of the conflicts and resolve them correctly.
