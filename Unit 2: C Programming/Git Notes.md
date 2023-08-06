@@ -97,12 +97,12 @@ $ git config core.bare true
 
 ### Images for the creating the repos
 <figure style="margin: auto">
-  <img src="Media/non-bare.png" alt="creating the non-bare folder" width="800px" height="100px">
+  <img src="Media/non-bare.png" alt="creating the non-bare folder">
   <figcaption>Creating the folders, adding test.txt file containing some words to the non-bare folder and making .git repo.</figcaption>
 </figure>
 <br>
 <figure style="margin: auto">
-  <img src="Media/bare.png" alt="managing the bare folder" width="800px" height="100px">
+  <img src="Media/bare.png" alt="managing the bare folder">
   <figcaption>preparing the bare folder, as we see the structure of the bare-proj folder is now like a typical .git repo. This folder now became like our local github repo .</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ $ git push -u origin main
 ```
 <div>
   <figure style="margin: auto">
-    <img src="Media/pushing commits to the bare repo.png" alt="creating the non-bare folder" width="1000px" height="250px">
+    <img src="Media/pushing commits to the bare repo.png" alt="creating the non-bare folder">
     <figcaption>From the non-bare-proj <b>folder</b>, create the first commit and push it to the bare-repo <b>repository</b> .</figcaption>
   </figure>
 </div>
@@ -135,11 +135,11 @@ $ git push -u origin main
 
 If we create anther folder besides `non-bare-proj` and `bare-proj` then we can **pull** the changes from the 'bare-proj' repo to this new folder and start working on the files and push them back and so on.
 
-<div>
+<figure style="margin: auto">
   <video src="Media/pull and push locally.mp4" controls muted autoplay preload="metadat" loop>
   A video diplaying the process of pulling and pushing changes locally on a bare repository
   </video>
-</div>
+</figure>
 
 ## Branching
 used for developing new features and then merge back this new branch with the main branch. you must take care of the conflicts and resolve them correctly.
