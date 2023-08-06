@@ -127,6 +127,10 @@ $ git push -u origin main
 <hr>
 If we create anther folder besides `non-bare-proj` and `bare-proj` then we can **pull** the changes from the 'bare-proj' repo to this new folder and start working on the files and push them back and so on.
 
+You can see a Demo through this ![link](https://drive.google.com/file/d/19wHncnLR1QLOVaD3jHU6hLSEES6DfKfy/view?usp=sharing). 
+
+<br>
+
 [<img src="https://www.cs.swarthmore.edu/~newhall/unixhelp/git.jpg" width="100%">](https://drive.google.com/file/d/19wHncnLR1QLOVaD3jHU6hLSEES6DfKfy/view?usp=sharing)
 
 ## Branching
