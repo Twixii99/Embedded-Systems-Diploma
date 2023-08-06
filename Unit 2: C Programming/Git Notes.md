@@ -124,19 +124,17 @@ $ git remote add origin ../bare-proj/
 $ git push -u origin main
 ```
 
-<div>
-  <figure style="margin: auto">
-    <img src="Media/pushing commits to the bare repo.png" alt="creating the non-bare folder">
-    <figcaption>From the non-bare-proj <b>folder</b>, create the first commit and push it to the bare-repo <b>repository</b> .</figcaption>
-  </figure>
-</div>
+<figure style="margin: auto">
+  <img src="Media/pushing commits to the bare repo.png" alt="creating the non-bare folder">
+  <figcaption>From the non-bare-proj <b>folder</b>, create the first commit and push it to the bare-repo <b>repository</b> .</figcaption>
+</figure>
 <hr>
 If we create anther folder besides `non-bare-proj` and `bare-proj` then we can **pull** the changes from the 'bare-proj' repo to this new folder and start working on the files and push them back and so on.
 
 <figure class="video_container">
   <video controls autoplay preload="metadat" loop allowfullscreen>
-  <source src="Media/pull and push locally.mp4" type="video/mp4">
-  A video diplaying the process of pulling and pushing changes locally on a bare repository
+    <source src="https://drive.google.com/file/d/19wHncnLR1QLOVaD3jHU6hLSEES6DfKfy/view?usp=sharing" type="video/mp4">
+    A video diplaying the process of pulling and pushing changes locally on a bare repository
   </video>
 </figure>
 
