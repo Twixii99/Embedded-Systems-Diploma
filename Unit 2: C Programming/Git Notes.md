@@ -123,20 +123,23 @@ we need to link our local repo to the bare repo as it's now working as a local g
 $ git remote add origin ../bare-proj/
 $ git push -u origin main
 ```
-
-<figure style="margin: auto">
-  <img src="Media/pushing commits to the bare repo.png" alt="creating the non-bare folder" width="1000px" height="250px">
-  <figcaption>From the non-bare-proj <b>folder</b>, create the first commit and push it to the bare-repo <b>repository</b> .</figcaption>
-</figure>
+<div>
+  <figure style="margin: auto">
+    <img src="Media/pushing commits to the bare repo.png" alt="creating the non-bare folder" width="1000px" height="250px">
+    <figcaption>From the non-bare-proj <b>folder</b>, create the first commit and push it to the bare-repo <b>repository</b> .</figcaption>
+  </figure>
+</div>
 
 <hr>
 <hr>
 
-If we create anther folder besides `non-bare-proj` and `bare-proj` then we can **pull** the changes from the 'bare-proj' repo to this new folder and start working on the files and push them back ans so on.
+If we create anther folder besides `non-bare-proj` and `bare-proj` then we can **pull** the changes from the 'bare-proj' repo to this new folder and start working on the files and push them back and so on.
 
-<video src="Media/pull and push locally.mp4" controls muted autoplay preload="metadat" loop>
-A video diplaying the process of pulling and pushing changes locally on a bare repository
-</video>
+<div>
+  <video src="Media/pull and push locally.mp4" controls muted autoplay preload="metadat" loop>
+  A video diplaying the process of pulling and pushing changes locally on a bare repository
+  </video>
+</div>
 
 ## Branching
 used for developing new features and then merge back this new branch with the main branch. you must take care of the conflicts and resolve them correctly.
