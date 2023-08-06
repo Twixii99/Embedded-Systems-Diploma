@@ -1,6 +1,4 @@
-<div style="text-align: center"> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" alt="git icon">
-</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg" alt="git icon">
 
 ---
 
@@ -39,9 +37,7 @@ we use relaxed terminology, so we often call the entire working tree + .git/ as 
 - https://stackoverflow.com/a/59349415
 <br><br>
 
-<p style="text-align: center; font-size: x-large; font-style: italic; font-weight: bold"> 
-  " We will use the first definition through out this course "
-</p>
+**We will use the `first definition` through out this course .**
 
 ## Repository location
 
@@ -131,7 +127,7 @@ $ git push -u origin main
 <hr>
 If we create anther folder besides `non-bare-proj` and `bare-proj` then we can **pull** the changes from the 'bare-proj' repo to this new folder and start working on the files and push them back and so on.
 
-<video src="Media/pull%20and%20push%20locally.mp4" controls title="Title"></video>
+[<img src="https://www.cs.swarthmore.edu/~newhall/unixhelp/git.jpg" width="100%">](https://drive.google.com/file/d/19wHncnLR1QLOVaD3jHU6hLSEES6DfKfy/view?usp=sharing)
 
 ## Branching
 used for developing new features and then merge back this new branch with the main branch. you must take care of the conflicts and resolve them correctly.
@@ -160,4 +156,4 @@ $ git diff branch-name1 branch-name2
 $ git push -u origin branch-name
 ```
 
-<span style="font-size: x-large"> You must resolve the conflicts happened when merging branches before merging them .</span>
+***You must resolve the conflicts happened when merging branches before merging them .***
